@@ -127,7 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Ciclista.cpp" />
+    <ClCompile Include="Corredor.cpp" />
+    <ClCompile Include="Deportista.cpp" />
+    <ClCompile Include="Fecha.cpp" />
+    <ClCompile Include="ManejoSimpleFechas.cpp" />
+    <ClCompile Include="Nadador.cpp" />
     <ClCompile Include="Proyecto 1 - Programacion II.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ciclista.h" />
+    <ClInclude Include="Corredor.h" />
+    <ClInclude Include="Deportista.h" />
+    <ClInclude Include="Fecha.h" />
+    <ClInclude Include="ManejoSimpleFechas.h" />
+    <ClInclude Include="Nadador.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
