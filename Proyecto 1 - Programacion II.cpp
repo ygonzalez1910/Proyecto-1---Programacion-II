@@ -2,9 +2,12 @@
 //
 
 #include <iostream>
+#include "ManejoSimpleFechas.h"
 
 int main()
 {
+	ManejoSimpleFechas r;
 
+	cout << r.sacarEdad()<<endl;
 }
 

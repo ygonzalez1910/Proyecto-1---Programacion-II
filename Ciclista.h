@@ -1,7 +1,7 @@
 #pragma once
-#include <iostream>
-using namespace std;
-class Ciclista
+#include "Deportista.h"
+
+class Ciclista : public Deportista
 {
 public: 
 	Ciclista(int, double);

@@ -1,9 +1,9 @@
 #pragma once
-#include <iostream>
-using namespace std;
-class Nadador
+#include "Deportista.h"
+
+class Nadador : public Deportista
 {
-public:
+public: 
 	Nadador(double, double, double);
 	string toString();
 private:

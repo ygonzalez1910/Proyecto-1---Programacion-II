@@ -2,7 +2,7 @@
 #include <sstream>
 using std::stringstream;
 
-Deportista::Deportista(string cedula, string nombre, string numeroTelefono, Fecha* fechaNacimiento)
+Deportista::Deportista(string cedula, string nombre, string numeroTelefono, ManejoSimpleFechas* fechaNacimiento)
 	:cedula(cedula), nombre(nombre),numeroTelefono(numeroTelefono),fechaNacimiento(fechaNacimiento)
 {
 }
