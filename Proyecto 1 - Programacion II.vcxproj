@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Ciclista.cpp" />
     <ClCompile Include="Corredor.cpp" />
+    <ClCompile Include="Cursos.cpp" />
     <ClCompile Include="Deportista.cpp" />
     <ClCompile Include="ManejoSimpleFechas.cpp" />
     <ClCompile Include="Nadador.cpp" />
@@ -137,10 +138,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ciclista.h" />
+    <ClInclude Include="Cliente.h" />
+    <ClInclude Include="Clientes.h" />
     <ClInclude Include="Corredor.h" />
+    <ClInclude Include="Cursos.h" />
     <ClInclude Include="Deportista.h" />
+    <ClInclude Include="Lista.h" />
     <ClInclude Include="ManejoSimpleFechas.h" />
     <ClInclude Include="Nadador.h" />
+    <ClInclude Include="Nodo.h" />
+    <ClInclude Include="NodoClientes.h" />
     <ClInclude Include="Triatlonista.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
