@@ -11,12 +11,13 @@ Deportista::~Deportista()
 {
 }
 
-string Deportista::toString() const
-{
-	stringstream r;
-	r << "Cedula: " << cedula << endl;
-	r << "Nombre: " << nombre << endl;
-	r << "Numero telefonico: " << numeroTelefono << endl;
-	r << "Fecha de Nacimiento: " << fechaNacimiento << endl;
-	return r.str();
-}
+//string Deportista::toString()
+//{
+//	stringstream r;
+//	r << "Cedula: " << cedula << endl;
+//	r << "Nombre: " << nombre << endl;
+//	r << "Numero de telefono: " << numeroTelefono << endl;
+//	r << "Fecha Nacimiento: " << fechaNacimiento << endl;
+//	return r.str();
+//}
+

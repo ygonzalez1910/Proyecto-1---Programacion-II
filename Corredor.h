@@ -1,13 +1,16 @@
 #pragma once
-#include "Deportista.h"
+#include "DatosBiometricos.h";
+#include "Triatlonista.h"
 
-class Corredor : public Deportista
+class Corredor : public Triatlonista
 {
 public:
-	Corredor(char,double);
+	Corredor(Deportista*,char,double);
+	~Corredor();
 	string toString();
 private:
 	char sexo;
 	double estatura;
+	DatosBiometricos* datosBiometricos;
 };
 

@@ -1,8 +1,12 @@
 #include "Corredor.h"
 #include <sstream>
+using std::stringstream;
+Corredor::Corredor(Deportista* deportista,char sexo, double estatura)
+	: Triatlonista(deportista), sexo(sexo),estatura(estatura)
+{
+}
 
-Corredor::Corredor(char sexo, double estatura)
-	:sexo(sexo),estatura(estatura)
+Corredor::~Corredor()
 {
 }
 

@@ -1,15 +1,17 @@
 #include "Nadador.h"
 #include <sstream>
-Nadador::Nadador(double masaMuscular, double peso, double porcentajeGrasaCorporal)
-	:masaMuscular(masaMuscular), peso(peso),porcentajeGrasaCorporal(porcentajeGrasaCorporal)
+Nadador::Nadador(Deportista* deportista)
+	: Triatlonista(deportista)
+{
+}
+
+Nadador::~Nadador()
 {
 }
 
 string Nadador::toString()
 {
 	stringstream r;
-	r << "Masa muscular: " << masaMuscular << endl;
-	r << "Peso: " << peso << endl;
-	r << "Porcentaje grasa corporal: " << porcentajeGrasaCorporal << endl;
+	r << datosBiometricos->toString();
 	return r.str();
 }

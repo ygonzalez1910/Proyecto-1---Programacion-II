@@ -1,14 +1,14 @@
 #pragma once
-#include "Deportista.h"
+#include "Triatlonista.h"
+#include "DatosBiometricos.h"
 
-class Nadador : public Deportista
+class Nadador : public Triatlonista
 {
 public: 
-	Nadador(double, double, double);
-	string toString();
+	Nadador(Deportista*);
+	virtual ~Nadador();
+	virtual string toString();
 private:
-	double masaMuscular;
-	double peso;
-	double porcentajeGrasaCorporal;
+	DatosBiometricos* datosBiometricos;
 };
 

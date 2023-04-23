@@ -1,15 +1,17 @@
 #pragma once
-#include "Deportista.h"
+#include "Triatlonista.h"
+#include "DatosBiometricos.h"
 
-class Ciclista : public Deportista
+class Ciclista : public Triatlonista
 {
 public: 
-	Ciclista(int, double);
+	Ciclista(Deportista*,int, double);
 	~Ciclista();
 	string toString();
 
 private:
 	int horasEntrenamiento;
 	double temPromedio;
+	DatosBiometricos* datosBiometricos;
 };
 
