@@ -13,6 +13,8 @@ Corredor::~Corredor()
 string Corredor::toString()
 {
 	stringstream r;
+	r << "Datos Biométricos:" << endl;
+	r << datosBiometricos->toString();
 	r << "Sexo: " << sexo << endl;
 	r << "Estatura: " << estatura << endl;
 	return r.str();
